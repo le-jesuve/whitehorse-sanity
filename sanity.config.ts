@@ -8,8 +8,8 @@ export default defineConfig({
   name: 'default',
   title: 'white',
   
-  projectId: process.env.SANITY_PROJECT_ID!,
-  dataset: process.env.SANITY_DATASET!,
+  projectId: 'crx6t0i5',
+  dataset:   'production'
 
   plugins: [structureTool(), visionTool(), deskTool()],
 
