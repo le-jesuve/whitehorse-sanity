@@ -9,7 +9,7 @@ export default defineConfig({
   title: 'white',
   
   projectId: 'crx6t0i5',
-  dataset:   'production'
+  dataset:   'production',
 
   plugins: [structureTool(), visionTool(), deskTool()],
 
